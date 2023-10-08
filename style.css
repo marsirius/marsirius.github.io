@@ -1,0 +1,43 @@
+@font-face { font-family: ubuntu-b; src: url('fonts/Ubuntu-B.ttf'); }
+@font-face { font-family: ubuntu-r; src: url('fonts/Ubuntu-R.ttf'); }
+
+body {
+    background-image: url('wallpaper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(75deg, rgb(0,0,0) 0%, rgb(0,24,0) 50%, rgba(40,42,54,0.4) 100%);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-family: ubuntu-b;
+    font-size: 4.2vw;
+}
+
+.body-block {
+    display: flex;
+    justify-content: center;
+}
+.paragraph {
+    font-family: ubuntu-r;
+    font-size: 1.5vw;
+}
+
+
+.foot-block {
+    display: flex;
+    justify-content: center;
+}
