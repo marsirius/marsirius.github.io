@@ -13,7 +13,7 @@ body {
 .background {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(75deg, rgb(0,0,0) 0%, rgb(0,24,0) 50%, rgba(40,42,54,0.4) 100%);
+    background: linear-gradient(75deg, rgb(0,0,0) 0%, rgb(0,0,0) 50%, rgba(40,40,40,0.4) 100%);
     display: table-cell;
     vertical-align: middle;
 }
